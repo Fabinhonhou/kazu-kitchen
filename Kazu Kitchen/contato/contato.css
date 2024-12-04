@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(fundo\ japones.jfif);
+}
+
+/* zona do cabeçalho */
+header{
+    background-color: #b22222;
+    width: 100%;
+    height: 180px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    
+} 
+
+/* mexe nas plalavras centrais */
+.nav-links {
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: -10%;
+    top: 35%;
+    
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: rgb(241, 224, 224);
+    font-size: 180%;
+    margin-left: 20%;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+ /* fim da zona que mexe nas palavras centrais */
+
+  /* mexe na logo e no nome do lado */
+.logo{
+    display: flex;
+}
+
+.logo img{ 
+    height: 140px;
+    margin-left: 20px;
+    position: relative;
+    top: 10%;
+    left: 0%;
+}
+
+
+ .part h1{
+    position: relative;
+    left: 0%;
+    top: 18%;
+    margin-right: 20%;
+    font-size: 300%;
+    color: white;
+    
+ }
+
+ .part a{
+    text-decoration: none;
+
+ }
+
+.part h1:hover{
+    text-decoration: nome;
+    color:#E4E4E4;
+    
+}
+/* fim da zona que mexe na logo e no nome do lado */
+
+ /* mexe no titulo de cima com fundo branco */
+.tt h1{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 20px 20px;
+    position: relative;
+    background-color: #ffffff;
+    /* left: 35%; */
+    text-align: 0;
+    margin-right: 33%;
+    margin-left: 35%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 14%;
+}
+
+/* cria a caixa de contato */
+section{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #b32929;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    position: relative;
+    left: 35%;
+    margin-bottom: 10px;
+}
+
+/* mexe no formato das caixas */
+section h2{
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* mexe na cor da palavras da caixa vermelha */
+form label{
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+/* mexe no formato da caixa de texto */
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+/* mexe na caixa grande */
+form input:focus{
+    border-radius: 16px;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+/* mexe no botão de enviar */
+form textarea:focus{
+    border-radius: 16px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+form button:hover{
+    background: #f5f5f5;
+    color: #101026;
+    border-radius: 16px;
+}
+/* fim da zona que mexe do botão de enviar */
+
+/* zona do rodapé  */
+
+
+
+/* zona do footer */
+
+/* cor do rodapé */
+.footer {
+    background-color: #343232;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/* direcionar a foto e o texto pra o canto direito */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* ajusta as coisas da direita */
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+    margin: 10px;
+}
+
+/* logo da esquerda */
+.footer-left .logo {
+    width: 100px;
+}
+ /* parte da esquerda */
+.footer-left h2 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+ /* zona da midias sociais do rodapé */
+.footer-left .social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-left .social-media li {
+    margin: 10px 0;
+}
+
+.footer-left .social-media li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.footer-left .social-media li a img {
+    width: 20px;
+    margin-right: 10px;
+}
+/* fim da zona da midias */
+
+/* alinhamento do texto do meio */
+.footer-center p{
+    font-size: 14px;
+    line-height: 1.5;
+    
+
+}
+
+/* ajuste da parte da direita */
+.footer-right {
+    text-align: center;
+}
+
+.footer-right .chef-image {
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+.footer-right .contact-info {
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* fim do ajuste da direita */
+
+/* ajuste da parte de baixo */
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 12px;
+}
+/* fim da zona do footer */
+
+/* final do rodapé   */

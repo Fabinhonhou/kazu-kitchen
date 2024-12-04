@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(fundo\ japones.jfif);
+}
+
+/* zona do cabeçalho */
+header{
+    background-color: #b22222;
+    width: 100%;
+    height: 180px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    
+} 
+
+/* mexe nas plalavras centrais */
+.nav-links {
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: -10%;
+    top: 35%;
+    
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: rgb(241, 224, 224);
+    font-size: 180%;
+    margin-left: 20%;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+ /* fim da zona que mexe nas palavras centrais */
+
+ /* mexe na logo e no nome do lado */
+.logo{
+    display: flex;
+}
+
+.logo img{ 
+    height: 140px;
+    margin-left: 20px;
+    position: relative;
+    top: 10%;
+    left: 0%;
+}
+
+
+ .part h1{
+    position: relative;
+    left: 0%;
+    top: 18%;
+    margin-right: 20%;
+    font-size: 300%;
+    color: white;
+    
+ }
+
+ .part a{
+    text-decoration: none;
+
+ }
+
+.part h1:hover{
+    text-decoration: nome;
+    color:#E4E4E4;
+    
+}
+/* fim da zona que mexe na logo e no nome do lado */
+
+
+
+    /* ajusta as imagens de .Destaque */
+.deimg img{
+    width: 30%;
+    height: 350px;
+    padding-left: 3%;
+    border-radius: 20%;
+    
+ }
+
+ /* centraliza e regula o nome e a imagem do destaque */
+ .titdes{
+    padding: 3%;
+    text-align: center;
+    font-size: 120%;
+
+ }
+
+/* mexe na imagem de destaque */
+.Destaque{
+    display: flex;
+    justify-content: center;
+}
+
+/* mexe nos nomes de destaque */
+.Destaque2{
+    display: flex;
+    padding-bottom: 10%;
+    
+    
+}
+
+/* Zona de ajuste manual dos nomes de Destaque */
+.cm1{
+    position: relative;
+    left: 24.5%;
+    font-size: 150%;
+
+}
+.cm2{
+    position: relative;
+    left: 42.5%;
+    font-size: 150%;
+
+}
+.cm3{
+    position: relative;
+    left: 60.5%;
+    font-size: 150%;
+}
+/* fim da zona de ajuste */
+
+
+
+
+/*  zona do ajuste manual de todos os textos das receitas recentes */
+.r1 h4{
+    position: absolute;
+    left: 34%;
+    top: 110%;
+    font-size: 160%;
+
+}
+
+.r1 p{
+    position: absolute;
+    left: 34%;
+    top: 115%;
+    font-size: 160%;
+    margin-right: 16%;
+
+}
+
+.r2 h4{
+    position: absolute;
+    left: 34%;
+    top: 152%;
+    font-size: 160%;
+
+}
+
+.r2 p{
+    position: absolute;
+    left: 34%;
+    top: 158%;
+    font-size: 160%;
+    margin-right: 16%;
+
+}
+
+.r3 h4{
+    position: absolute;
+    left: 34%;
+    top: 192%;
+    font-size: 160%;
+
+}
+
+.r3 p{
+    position: absolute;
+    left: 34%;
+    top: 198%;
+    font-size: 160%;
+    margin-right: 16%;
+
+}
+
+
+.r4 h4{
+    position: absolute;
+    left: 34%;
+    top: 234%;
+    font-size: 160%;
+
+}
+
+.r4 p{
+    position: absolute;
+    left: 34%;
+    top: 239%;
+    font-size: 160%;
+    margin-right: 16%;
+
+}
+
+.r5 h4{
+    position: absolute;
+    left: 34%;
+    top: 275%;
+    font-size: 160%;
+
+}
+
+.r5 p{
+    position: absolute;
+    left: 34%;
+    top: 280%;
+    font-size: 160%;
+    margin-right: 16%;
+
+}
+/* final da zona de ajuste do destaque */
+
+   
+
+
+/* mexe nas imagens da receitas recentes */
+.Recente img{
+    width: 30%;
+    height: 300px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    border-radius: 23%;
+    padding-left: 2%;
+    
+}
+
+/* ajusta a receitas recentes */
+.Recente h1{
+    background-color: #b22222;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    text-align: center;
+}
+
+
+/* zona do rodapé  */
+
+
+
+/* zona do footer */
+
+/* cor do rodapé */
+.footer {
+    background-color: #343232;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/* direcionar a foto e o texto pra o canto direito */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* ajusta as coisas da direita */
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+    margin: 10px;
+}
+
+/* logo da esquerda */
+.footer-left .logo {
+    width: 100px;
+}
+ /* parte da esquerda */
+.footer-left h2 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+ /* zona da midias sociais do rodapé */
+.footer-left .social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-left .social-media li {
+    margin: 10px 0;
+}
+
+.footer-left .social-media li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.footer-left .social-media li a img {
+    width: 20px;
+    margin-right: 10px;
+}
+/* fim da zona da midias */
+
+/* alinhamento do texto do meio */
+.footer-center p{
+    font-size: 14px;
+    line-height: 1.5;
+    
+
+}
+
+/* ajuste da parte da direita */
+.footer-right {
+    text-align: center;
+}
+
+.footer-right .chef-image {
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+.footer-right .contact-info {
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* fim do ajuste da direita */
+
+/* ajuste da parte de baixo */
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 12px;
+}
+/* fim da zona do footer */
+
+/* final do rodapé   */
+
+
+
+
+

@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(fundo\ japones.jfif);
+}
+
+/* zona do cabeçalho */
+header{
+    background-color: #b22222;
+    width: 100%;
+    height: 180px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    
+} 
+
+/* mexe nas plalavras centrais */
+.nav-links {
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: -10%;
+    top: 35%;
+    
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: rgb(241, 224, 224);
+    font-size: 180%;
+    margin-left: 20%;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+ /* fim da zona que mexe nas palavras centrais */
+
+  /* mexe na logo e no nome do lado */
+.logo{
+    display: flex;
+}
+
+.logo img{ 
+    height: 140px;
+    margin-left: 20px;
+    position: relative;
+    top: 10%;
+    left: 0%;
+}
+
+
+ .part h1{
+    position: relative;
+    left: 0%;
+    top: 18%;
+    margin-right: 20%;
+    font-size: 300%;
+    color: white;
+    
+ }
+
+ .part a{
+    text-decoration: none;
+
+ }
+
+.part h1:hover{
+    text-decoration: nome;
+    color:#E4E4E4;
+    
+}
+/* fim da zona que mexe na logo e no nome do lado */
+
+/* codigo de cria a caixa branca atras do textos */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 2%;
+    margin-top:2%;
+    font-size: x-large;
+    
+}
+    
+
+
+/* mexe nos texto sobre nós */
+.sobre h1{
+    margin-top: 3%;
+  }
+.sobre{
+    margin-left: 2%;
+    /* margin-right: 20%; */
+}
+
+
+/* mexe nos textos sobre o chef */
+.chef-kazu h1{
+    margin-top: 3%;
+}
+.chef-kazu{
+    margin-left: 2%
+}
+
+
+
+
+
+
+
+
+
+/* zona do footer */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+
+.content {
+    flex: 1; 
+    padding: 20px;
+}
+
+/* cor do rodapé */
+.footer {
+    background-color: #343232;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/* direcionar a foto e o texto pra o canto direito */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* ajusta as coisas da direita */
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+    margin: 10px;
+}
+
+/* logo da esquerda */
+.footer-left .logo {
+    width: 100px;
+}
+ /* parte da esquerda */
+.footer-left h2 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+ /* zona da midias sociais do rodapé */
+.footer-left .social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-left .social-media li {
+    margin: 10px 0;
+}
+
+.footer-left .social-media li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.footer-left .social-media li a img {
+    width: 20px;
+    margin-right: 10px;
+}
+/* fim da zona da midias */
+
+/* alinhamento do texto do meio */
+.footer-center p{
+    font-size: 14px;
+    line-height: 1.5;
+    
+
+}
+
+/* ajuste da parte da direita */
+.footer-right {
+    text-align: center;
+}
+
+.footer-right .chef-image {
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+.footer-right .contact-info {
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* fim do ajuste da direita */
+
+/* ajuste da parte de baixo */
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 12px;
+}
+/* fim da zona do footer */
